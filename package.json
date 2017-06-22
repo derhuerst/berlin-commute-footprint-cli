@@ -27,7 +27,10 @@
 		"node": ">=6"
 	},
 	"dependencies": {
-		"berlin-commute-footprint": "^0.1.0"
+		"berlin-commute-footprint": "^0.1.0",
+		"floordate": "^3.0.0",
+		"parse-messy-time": "^2.1.0",
+		"vbb-client": "^2.0.1"
 	},
 	"scripts": {
 		"test": "./bin.js todo >/dev/null"
