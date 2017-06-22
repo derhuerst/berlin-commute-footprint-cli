@@ -1,0 +1,35 @@
+{
+	"preferGlobal": true,
+	"name": "berlin-commute-footprint-cli",
+	"description": "Command line tool to compare cost, environmental and health impact of commuting in Berlin.",
+	"version": "0.1.0",
+	"bin": {
+		"berlin-commute-footprint": "./cli.js"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"commuting",
+		"public transport",
+		"bike",
+		"co2",
+		"health",
+		"costs",
+		"cli"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/berlin-commute-footprint-cli",
+	"repository": "derhuerst/berlin-commute-footprint-cli",
+	"bugs": "https://github.com/derhuerst/berlin-commute-footprint-cli/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
+	"dependencies": {
+		"berlin-commute-footprint": "^0.1.0"
+	},
+	"scripts": {
+		"test": "./bin.js todo >/dev/null"
+	}
+}
